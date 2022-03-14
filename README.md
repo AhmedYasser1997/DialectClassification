@@ -11,15 +11,16 @@ The Project is divided in the following Sections:
 
 ## Files Description
 **dialect_dataset.csv:** CSV file that contains the ids of the texts and their corresponding dialect. \
-**Data fetching notebook.ipynb** Loads the texts and merges them with the current data
+**Data fetching notebook.ipynb** Loads the texts and merges them with the current data \
 **Data preprocessing notebook.ipynb** Data wrangling mainly and some EDA  \
-**Model training notebook.ipynb:** Building 2 models: 1 ML model (Naive Bayes) and 1 Deep Learning model (using recurrent neural network) which unfortunately is still incomplete \
+**Model training notebook.ipynb:** Building 2 models: 1 ML model (Naive Bayes) and 1 Deep Learning model (using recurrent neural network) which unfortunately is still incomplete 
 ### App Folder
 **run.py:** Python script for running the web app \
 **go.html and master.html:** templates folder that contains 2 HTML files for the app front-end
 
 ## Running the project:
-Run the following command in the app's directory to run your web app.
+1. In the project's directory, type `python model_training_script.py` to build the machine learning model
+2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
 3. Go to http://localhost:3001/
