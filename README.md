@@ -19,7 +19,8 @@ The Project is divided in the following Sections:
 **go.html and master.html:** templates folder that contains 2 HTML files for the app front-end
 
 ## Running the project:
-Run the following command in the app's directory to run your web app.
+1. In the project's directory, type `python model_training_script.py` to build the machine learning model
+2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
 3. Go to http://localhost:3001/
